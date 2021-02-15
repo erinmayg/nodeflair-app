@@ -1,0 +1,87 @@
+.navbar {
+  background-color: white;
+  height: 56px;
+  padding: 0;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-hide {
+  height: 120px;
+  border-bottom: 1px solid lightgray;
+  box-shadow: none;
+}
+
+.navbar .navbar-inner-container {
+  height: 100%;
+  width: 100%;
+  max-width: 1140px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.navbar .navbar-icon {
+  width: 180px;
+  padding: 10px 16px;
+  float: left;
+  margin: 2px auto;
+  cursor: pointer;
+}
+
+.navbar .clickable-options-icon {
+  color: #3a3a3a;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.navbar .navbar-clickable-options-container {
+  float: right;
+  margin: 0 auto;
+}
+
+.navbar .navbar-clickable-option {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 18px 20px;
+  text-decoration: none;
+  color: #3a3a3a;
+  transition: 0.1s;
+}
+
+.navbar .navbar-clickable-option:hover {
+  color: #1fc76a;
+}
+
+.navbar .toggle-menu {
+  width: 100%;
+  border-bottom: medium none;
+  display: inline-block;
+  z-index: 200;
+}
+
+.navbar .navbar-dropdown-clickable-options-container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  z-index: 200;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .navbar-clickable-option {
+    padding: 10px;
+  }
+}

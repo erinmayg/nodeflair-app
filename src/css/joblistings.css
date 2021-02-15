@@ -39,30 +39,17 @@
 .job-search-card .job-search-bar-container {
   display: flex;
   font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
-}
-
-.job-search-card .job-search-bar-container .react-autosuggest__container {
   position: relative;
-  flex: 1;
-  background-color: #f1f1f1;
   font-size: 16px;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
   display: flex;
   align-items: center;
-  margin-right: -50px;
   margin-bottom: 15px;
-  border: 1px solid #f1f1f1;
-  border-right-width: 1px;
-  border-right-width: 0px;
-  transition: 0.1s border;
   z-index: 2;
 }
 
-.job-search-card
-  .job-search-bar-container
-  .react-autosuggest__container
-  .react-autosuggest__input {
+.job-search-card .job-search-bar-container input {
   width: 100%;
   border-width: 0px;
   background-color: rgba(0, 0, 0, 0);
@@ -70,14 +57,30 @@
   height: 50px;
   font-weight: 600;
   padding-left: 15px;
-  margin-right: 50px;
+  transition: 0.1s border;
+
+  background-color: #f1f1f1;
+}
+
+.job-search-card .job-search-bar-container input:focus {
+  outline: none;
+  border: 1px solid #1fc76a;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+::placeholder,
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder {
+  opacity: 0.3;
 }
 
 .job-search-card .job-search-bar-container .job-search-bar-button {
   background-color: #1fc76a;
   color: #ffffff;
-  height: 52px;
-  width: 52px;
+  height: 50px;
+  width: 50px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   display: flex;

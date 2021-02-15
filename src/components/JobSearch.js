@@ -8,7 +8,8 @@ function JobSearch() {
       <div className='job-search-header'>
         <div className='Typist'>
           SELECT <span className='color-primary'>*</span> FROM{' '}
-          <span className='color-primary'>TECH JOBS</span> WHERE
+          <span className='color-primary'>TECH_JOBS</span> WHERE
+          <span id='border'></span>
         </div>
       </div>
 
@@ -17,7 +18,6 @@ function JobSearch() {
           type='text'
           autocomplete='off'
           placeholder='Try: Frontend, QA Engineer, React.js'
-          value=''
         ></input>
         <button className='btn job-search-bar-button'>
           <FaSearch />

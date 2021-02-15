@@ -52,10 +52,6 @@ body {
   border-color: #1fc76a;
 }
 
-.position-fixed {
-  position: fixed;
-}
-
 .show-only-on-large {
   display: inherit;
 }

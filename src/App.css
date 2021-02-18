@@ -104,6 +104,15 @@ body {
   color: #ffe03c;
 }
 
+.full-width {
+  width: 10em;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
 @media screen and (max-width: 768px) {
   .show-only-on-large {
     display: none;

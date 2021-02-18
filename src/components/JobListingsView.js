@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/joblistings.css';
-import Autosuggest from 'react-autosuggest';
+// import Autosuggest from 'react-autosuggest';
 import JobListingsHero from './JobListingsHero';
 import JobSearch from './JobSearch';
 import JobList from './JobList';

@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <nav className={'navbar position-fixed' + (toggleMenu && ' navbar-hide')}>
       <div className='navbar-inner-container'>
-        <a className='navbar-icon' href='https://www.nodeflair.com/'>
+        <a className='navbar-icon' href='/'>
           <NodeFlair />
         </a>
         <span

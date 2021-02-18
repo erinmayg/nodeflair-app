@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nodeflair-app/static/css/main.e855a626.chunk.css",
+    "main.js": "/nodeflair-app/static/js/main.af8ac2ad.chunk.js",
+    "main.js.map": "/nodeflair-app/static/js/main.af8ac2ad.chunk.js.map",
+    "runtime-main.js": "/nodeflair-app/static/js/runtime-main.2029b8c1.js",
+    "runtime-main.js.map": "/nodeflair-app/static/js/runtime-main.2029b8c1.js.map",
+    "static/js/2.17fb81a5.chunk.js": "/nodeflair-app/static/js/2.17fb81a5.chunk.js",
+    "static/js/2.17fb81a5.chunk.js.map": "/nodeflair-app/static/js/2.17fb81a5.chunk.js.map",
+    "static/js/3.bda7e17a.chunk.js": "/nodeflair-app/static/js/3.bda7e17a.chunk.js",
+    "static/js/3.bda7e17a.chunk.js.map": "/nodeflair-app/static/js/3.bda7e17a.chunk.js.map",
+    "index.html": "/nodeflair-app/index.html",
+    "static/css/main.e855a626.chunk.css.map": "/nodeflair-app/static/css/main.e855a626.chunk.css.map",
+    "static/js/2.17fb81a5.chunk.js.LICENSE.txt": "/nodeflair-app/static/js/2.17fb81a5.chunk.js.LICENSE.txt",
+    "static/media/nodeflair.a9f46896.svg": "/nodeflair-app/static/media/nodeflair.a9f46896.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2029b8c1.js",
+    "static/js/2.17fb81a5.chunk.js",
+    "static/css/main.e855a626.chunk.css",
+    "static/js/main.af8ac2ad.chunk.js"
+  ]
+}
